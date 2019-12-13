@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Delivery</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Delivery Service</string>
+    <string name="nav_header_subtitle">deliveryservice@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_receiver">Receiver Order</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_Main">Main</string>
+    <string name="menu_gallery">Home</string>
+    <string name="menu_categories">Categories</string>
+    <string name="order">Order</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send Order</string>
+
+    <string name="action_ontheway">On the way</string>
+    <string name="action_arrived">Arrived</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">Main</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_list">List</string>
+    <string name="hello_world">Hello_world</string>
+    <string name="dialog_message">Welcome to Alert Dialog</string>
+    <string name="dialog_title">Alert Dialog Hello</string>
+
+    <string name="total_online_drivers">Total Online Drivers : </string>
+    <string name="need_location">Enable GPS SERVICE</string>
+    <string name="down_town">မြို့တွင်း</string>
+    <string name="out_town">မြို့ပြင်</string>
+    <string name="welcome_customer">Welcome customers</string>
+    <string name="Services">Services</string>
+    <string name="Here_is_our_servies">Here is our services</string>
+    <string name="Special_promition">Special Promotions</string>
+    <string name="location_content">This app wants to change your device settings use GPS,Wi-Fi and cell networks for your location</string>
+    <string name="error_alert_title" translatable="false">Uh-Oh!</string>
+    <string name="error_alert_message_invalid_bounds">Unable to parse Location Bias or Location Restriction. Expected format: \"33, 128\"</string>
+    <string name="autocomplete_query_hint" translatable="false">(Initial) Query</string>
+
+    <!-- AUTOCOMPLETE -->
+
+    <!-- Hint for the autocomplete widget's initial query and autocomplete prediction's query field. -->
+    <string name="autocomplete_hint_hint" translatable="false">Hint</string>
+
+    <!-- Hint for the autocomplete widget's query field. -->
+    <string name="autocomplete_country_hint" translatable="false">Country</string>
+
+    <!-- Hint for the autocomplete prediction's and widget's country field. -->
+    <string name="autocomplete_type_filter" translatable="false">Type Filter</string>
+
+    <!-- Hint Text for the autocomplete prediction's and widget's type filter field. -->
+    <string name="autocomplete_location_bias_label" translatable="false">Location Bias (format: -33.2, 128.2)</string>
+
+
+    <!-- Label for the autocomplete prediction's and widget's location bias related fields. -->
+    <string name="autocomplete_location_restriction_label" translatable="false">Location Restriction (format: -33.2, 128.2)</string>
+
+    <!-- Label for the autocomplete prediction's and widget's location restriction related fields. -->
+    <string name="autocomplete_location_south_west_hint" translatable="false">South West (lat, lng)</string>
+
+    <!-- Hint for the autocomplete prediction's and widget's location southwest field. -->
+    <string name="autocomplete_location_north_east_hint" translatable="false">North East (lat, lng)</string>
+
+    <!-- Hint for the autocomplete prediction's and widget's location northeast field. -->
+    <string name="autocomplete_use_type_filter" translatable="false">Use TypeFilter?</string>
+
+
+    <!-- Text for enabling autocomplete prediction's and widget's type filter field. -->
+    <string name="autocomplete_use_session_token" translatable="false">(Predictions-only) Use session token?</string>
+
+    <!-- Text for enabling autocomplete prediction's use of session tokens. -->
+    <string name="autocomplete_activity_overlay_mode" translatable="false">(Activity-only) Overlay mode?</string>
+
+    <!-- Text for autocomplete activity mode (overlay or fullscreen) checkbox. -->
+    <string name="autocomplete_support_fragment_text_label" translatable="false">Autocomplete Support Fragment:</string>
+
+    <!-- Text for the autocomplete support fragment section label. -->
+    <string name="autocomplete_fragment_text_label" translatable="false">Autocomplete Fragment:</string>
+
+    <!-- Text for the autocomplete fragment section label. -->
+    <string name="autocomplete_support_fragment_update_button" translatable="false">Update Support Fragment</string>
+
+    <!-- Text for the autocomplete support fragment update button. -->
+    <string name="autocomplete_fragment_update_button" translatable="false">Update Fragment</string>
+
+    <!-- Text for the autocomplete fragment update button. -->
+    <string name="autocomplete_activity_button" translatable="false">Open Activity</string>
+
+    <!-- Text for starting the autocomplete activity button. -->
+    <string name="fetch_autocomplete_predictions_button" translatable="false">Fetch Predictions</string>
+
+    <!-- Text for the fetch autocomplete predictions submit button. -->
+    <string name="use_custom_fields" translatable="false">Manually set Place Fields?</string>
+    <!-- Text for checkbox to set custom list of Place Fields. -->
+    <string name="fetch_place_and_photo_button" translatable="false">Fetch Place and Photo</string>
+
+    <!-- Text for the fetch place and photo button. -->
+    <string name="error_alert_message_invalid_photo_size" translatable="false">Unable to parse Photo size. Expected format is integers</string>
+
+    <string name="error_api_key" translatable="false">No API key defined in gradle.properties</string>
+
+    <string name="display_raw_results" translatable="false">Display raw results?</string>
+
+    <!-- Text for raw results checkbox. When checked raw return values will be displayed. -->
+    <string-array name="pre_post_array">
+        <item>Prepaid</item>
+        <item>Post paid</item>
+    </string-array>
+</resources>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:id="@+id/imageView_ServiceDetail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/dishes" />
+
+        <ImageView
+            android:id="@+id/backarrow_service_detail"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/back_arrow_white" />
+
+        <TextView
+            android:id="@+id/textView_ServiceDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="16dp"
+            android:text="Black Smith Cafe"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutofReview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="16dp">
+
+            <ImageView
+                android:id="@+id/imageViewofReview"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/star" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageViewofReview"
+                android:layout_centerHorizontal="true"
+                android:text="Review"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/map" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="12dp">
+
+            <TextView
+                android:id="@+id/tvaddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="123 Queen Street,Sydney"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvaddress1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvaddress"
+                android:text="Australian, Cafe"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvaddress1"
+                android:text="11:30AM to 11:00PM"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout_service_detail_1"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/textView_service_detail_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Call"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/textView_service_detail_1"
+                android:gravity="right"
+                android:text="(+61) 123 456 789"
+                android:textColor="@color/bayleaf"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout_service_detail_2"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_below="@+id/relativeLayout_service_detail_1"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/textView_service_detail_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Cuisines"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/textView_service_detail_2"
+                android:gravity="right"
+                android:text="Australian, Cafe"
+                android:textColor="@color/bayleaf"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout_service_detail_3"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_below="@id/relativeLayout_service_detail_2"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/textView_service_detail_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Average Cost"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/textView_service_detail_3"
+                android:gravity="right"
+                android:text="$20-$50"
+                android:textColor="@color/bayleaf"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

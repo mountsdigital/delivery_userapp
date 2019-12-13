@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--<androidx.cardview.widget.CardView-->
+                <!--android:id="@+id/imageviewdetails1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="10dp"-->
+                <!--app:cardCornerRadius="8dp">-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/itemImage"-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:background="@drawable/img9" />-->
+
+            <!--</androidx.cardview.widget.CardView>-->
+
+            <com.mounts.lenovo.delivery3.imageView.RoundRectCornerImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="8dp"
+                android:id="@+id/imageviewdetails"
+                android:src="@drawable/img9"
+                android:scaleType="fitXY" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@+id/imageviewdetails"
+                android:padding="4dp">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="Erren's Kitchen"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv1"
+                    android:maxLines="1"
+                    android:text="23 Queen Street"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv2"
+                    android:maxLines="1"
+                    android:text="Buantos,China"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

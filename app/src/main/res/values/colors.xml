@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8EB691</color>
+    <color name="colorPrimaryDark">#8EB691</color>
+    <color name="colorAccent">#8EB691</color>
+    <color name="bayleaf">#7EA781</color>
+    <color name="ic_launcher_background">#8EB691</color>
+    <color name="textColor">#424242</color>
+    <color name="grey">#C5C5C5</color>
+    <color name="white">#ffffff</color>
+    <color name="whitetransprant">#50ffffff</color>
+    <color name="black">#111111</color>
+    <color name="dark">#252424</color>
+    <color name="blacktransprant">#60111111</color>
+    <color name="gray">#CFCFCF</color>
+    <color name="whitegrey">#E4E2E2</color>
+    <color name="red">#EE0A0A</color>
+    <color name="yellow">#FFFFEB3B</color>
+    <color name="blue">#0ED4DB</color>
+    <color name="fountainblue">#55BBC1</color>
+    <color name="send_order_color">#ffffff</color>
+    <color name="transparent">@android:color/transparent</color>
+</resources>

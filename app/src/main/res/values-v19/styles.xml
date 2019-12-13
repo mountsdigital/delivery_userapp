@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">false</item>
+
+    </style>
+
+    <style name="hello" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/transparent</item>
+        <item name="colorPrimaryDark">@color/transparent</item>
+        <item name="colorAccent">@color/transparent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

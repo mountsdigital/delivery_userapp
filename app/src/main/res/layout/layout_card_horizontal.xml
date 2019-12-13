@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:gravity="center_horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card1"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:elevation="14dp"
+                app:cardCornerRadius="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="Orientation">
+
+                    <ImageView
+                        android:id="@+id/image1"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/img1" />
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayout2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/image1"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxLines="1"
+                            android:text="Erren's Kitchen"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView1"
+                            android:maxLines="1"
+                            android:text="23 Queen Street"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView2"
+                            android:maxLines="1"
+                            android:text="Buantos,China"
+                            android:textSize="14dp" />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
